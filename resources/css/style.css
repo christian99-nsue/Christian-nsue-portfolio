@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 16px;
+}
+/*Desktop nav and Header*/
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 4.6875rem;
+    background-color: rgb(105, 56, 156);
+    z-index: 10;
+}
+#desktop{
+    position: relative;
+    z-index: 1;
+}
+#desktop img {
+    width: 3.125rem;
+    height: 3.125rem;
+    border-radius: 50%;
+    float: left;
+    margin-left: 2.1875rem;
+    margin-top: 12px;
+}
+#desktop ul{
+    list-style: none;
+    display: flex;
+    margin-right: 2.1875rem;
+    float: right;
+    
+}
+#desktop li{
+    display: flex;
+    margin-left: 35px;
+}
+#desktop li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 25px;
+    margin-top: 25px;
+    font-family: "Alike", serif;
+}
+#desktop li a:hover{
+    color: blue;
+}
+.banner{
+    width: 100%;
+    height: 750px;
+    display: flex;
+    top: 4.6875rem;
+    position: relative;
+    
+}
+.banner::before{
+    background-image: url('../images/pexels-photo-257897.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: '';
+    position: absolute;
+    inset: 0;
+    opacity: 0.7;
+}
+
+.banner img{
+    position: relative;
+    width: 30rem;
+    height: 30rem;
+    top: 5rem;
+    margin: 6rem;
+    isolation: isolate;
+}
+.banner p{
+    top: 5rem;
+    margin: auto;
+    text-align: center;
+    font-family: "Alike", serif;
+    isolation: isolate;
+}
+
+.banner p span{
+    font-size: 5rem;
+    color: black;
+}
+.cv{
+    font-size: 3rem;
+}
+.banner a{
+    margin: auto;
+    font-size: 2rem;
+    text-decoration: none;
+    color: blue;
+}
+.banner a:hover{
+    color: red;
+    transition: .5s color ease .3s;
+}
+.banner a:visited{
+    color: blueviolet;
+}
+.name{
+    background-size: cover;
+    width: 100%;
+    height: 750px;
+    background-image: url('../images/negro.jpg');
+    position: relative;
+    top: 5rem;
+}
+
+
