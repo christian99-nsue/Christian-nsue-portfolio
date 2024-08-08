@@ -103,12 +103,105 @@ header{
     color: blueviolet;
 }
 .name{
-    background-size: cover;
     width: 100%;
     height: 750px;
-    background-image: url('../images/negro.jpg');
     position: relative;
     top: 5rem;
+    padding-top: 2rem;
 }
+.name::before{
+    content: '';
+    position: absolute;
+    background-image: url('../images/negro.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    inset: 0;
+    opacity: 0.7;
+}
+.name p{
+    margin:0 15rem;
+    text-align: justify;
+    isolation: isolate;
+    font-size: 1.5rem;
+}
+.skills{
+    isolation: isolate;
+    position: relative;
+}
+.skills h2{
+    font-size: 3.125rem;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 3rem;
+    color: rgb(244, 239, 132);
+}
+.dev{
+    display: flex;
+}
+.web-dev{
+    border: 1px solid white;
+    padding: 2rem;
+    flex: 40%;
+    margin: 1.5rem;
+}
+.web-dev h3{
+    font-size: 2.5rem;
+    text-align: center;
+    color: rgb(89, 173, 255);
+}
+.web-pro{
+    display: grid;
+    grid-template: repeat(2, 9.375rem)/repeat(3, 9.375rem);
+    justify-content: center;
+    justify-items: center;
+    gap: 2rem;
+    padding-top: 1rem;
+}
+.web-pro div{
+    text-align: center;
+}
+.web-pro div span{
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+}
+.web-pro img{
+    width: 100px;
+    height: 100px;
+}
+.app-dev {
+    border: 1px solid white;
+    padding: 2rem;
+    flex: 40%;
+    margin: 1.5rem;
+}
+.app-dev h3 {
+    font-size: 2.5rem;
+    text-align: center;
+    color: rgb(255, 0, 0);
+}
+.app-pro {
+    display: grid;
+    grid-template: repeat(2, 9.375rem)/repeat(3, 9.375rem);
+    justify-content: center;
+    justify-items: center;
+    gap: 2rem;
+    padding-top: 1rem;
+}
+.app-pro div{
+    text-align: center;
+}
+.app-pro div span {
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.app-pro img {
+    width: 100px;
+    height: 100px;
+}
+
+
 
 
