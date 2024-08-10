@@ -1,207 +1,256 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-html{
-    font-size: 16px;
+html {
+  font-size: 16px;
 }
 /*Desktop nav and Header*/
-header{
-    position: fixed;
-    top: 0;
-    width: 100%;
-    height: 4.6875rem;
-    background-color: rgb(105, 56, 156);
-    z-index: 10;
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 4.6875rem;
+  background-color: rgb(105, 56, 156);
+  z-index: 10;
 }
-#desktop{
-    position: relative;
-    z-index: 1;
+#desktop {
+  position: relative;
+  z-index: 1;
 }
 #desktop img {
-    width: 3.125rem;
-    height: 3.125rem;
-    border-radius: 50%;
-    float: left;
-    margin-left: 2.1875rem;
-    margin-top: 12px;
+  width: 3.125rem;
+  height: 3.125rem;
+  border-radius: 50%;
+  float: left;
+  margin-left: 2.1875rem;
+  margin-top: 12px;
 }
-#desktop ul{
-    list-style: none;
-    display: flex;
-    margin-right: 2.1875rem;
-    float: right;
-    
+#desktop ul {
+  list-style: none;
+  display: flex;
+  margin-right: 2.1875rem;
+  float: right;
 }
-#desktop li{
-    display: flex;
-    margin-left: 35px;
+#desktop li {
+  display: flex;
+  margin-left: 35px;
 }
-#desktop li a{
-    text-decoration: none;
-    color: white;
-    text-transform: uppercase;
-    font-size: 25px;
-    margin-top: 25px;
-    font-family: "Alike", serif;
+#desktop li a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 25px;
+  margin-top: 25px;
+  font-family: "Alike", serif;
 }
-#desktop li a:hover{
-    color: blue;
+#desktop li a:hover {
+  color: blue;
 }
-.banner{
-    width: 100%;
-    height: 750px;
-    display: flex;
-    top: 4.6875rem;
-    position: relative;
-    
+.banner {
+  width: 100%;
+  height: 750px;
+  display: flex;
+  top: 4.6875rem;
+  position: relative;
 }
-.banner::before{
-    background-image: url('../images/pexels-photo-257897.jpeg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    content: '';
-    position: absolute;
-    inset: 0;
-    opacity: 0.7;
+.banner::before {
+  background-image: url("../images/pexels-photo-257897.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  content: "";
+  position: absolute;
+  inset: 0;
+  opacity: 0.7;
 }
 
-.banner img{
-    position: relative;
-    width: 30rem;
-    height: 30rem;
-    top: 5rem;
-    margin: 6rem;
-    isolation: isolate;
+.banner img {
+  position: relative;
+  width: 30rem;
+  height: 30rem;
+  top: 5rem;
+  margin: 6rem;
+  isolation: isolate;
 }
-.banner p{
-    top: 5rem;
-    margin: auto;
-    text-align: center;
-    font-family: "Alike", serif;
-    isolation: isolate;
+.banner p {
+  top: 5rem;
+  margin: auto;
+  text-align: center;
+  font-family: "Alike", serif;
+  isolation: isolate;
 }
 
-.banner p span{
-    font-size: 5rem;
-    color: black;
+.banner p span {
+  font-size: 5rem;
+  color: black;
 }
-.cv{
-    font-size: 3rem;
+.cv {
+  font-size: 3rem;
 }
-.banner a{
-    margin: auto;
-    font-size: 2rem;
-    text-decoration: none;
-    color: blue;
+.banner a {
+  margin: auto;
+  font-size: 2rem;
+  text-decoration: none;
+  color: blue;
 }
-.banner a:hover{
-    color: red;
-    transition: .5s color ease .3s;
+.banner a:hover {
+  color: red;
+  transition: 0.5s color ease 0.3s;
 }
-.banner a:visited{
-    color: blueviolet;
+.banner a:visited {
+  color: blueviolet;
 }
-.name{
-    width: 100%;
-    height: 750px;
-    position: relative;
-    top: 5rem;
-    padding-top: 2rem;
+.name {
+  width: 100%;
+  height: 750px;
+  position: relative;
+  top: 5rem;
+  padding-top: 2rem;
 }
-.name::before{
-    content: '';
-    position: absolute;
-    background-image: url('../images/negro.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    inset: 0;
-    opacity: 0.7;
+.name::before {
+  content: "";
+  position: absolute;
+  background-image: url("../images/negro.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  inset: 0;
+  opacity: 0.7;
 }
-.name p{
-    margin:0 15rem;
-    text-align: justify;
-    isolation: isolate;
-    font-size: 1.5rem;
+.name p {
+  margin: 0 15rem;
+  text-align: justify;
+  isolation: isolate;
+  font-size: 1.5rem;
 }
-.skills{
-    isolation: isolate;
-    position: relative;
+.skills {
+  isolation: isolate;
+  position: relative;
 }
-.skills h2{
-    font-size: 3.125rem;
-    margin: 0 auto;
-    text-align: center;
-    padding-top: 3rem;
-    color: rgb(244, 239, 132);
+.skills h2 {
+  font-size: 3.125rem;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 3rem;
+  color: rgb(244, 239, 132);
 }
-.dev{
-    display: flex;
+.dev {
+  display: flex;
 }
-.web-dev{
-    border: 1px solid white;
-    padding: 2rem;
-    flex: 40%;
-    margin: 1.5rem;
+.web-dev {
+  border: 1px solid white;
+  padding: 2rem;
+  flex: 40%;
+  margin: 1.5rem;
 }
-.web-dev h3{
-    font-size: 2.5rem;
-    text-align: center;
-    color: rgb(89, 173, 255);
+.web-dev h3 {
+  font-size: 2.5rem;
+  text-align: center;
+  color: rgb(89, 173, 255);
 }
-.web-pro{
-    display: grid;
-    grid-template: repeat(2, 9.375rem)/repeat(3, 9.375rem);
-    justify-content: center;
-    justify-items: center;
-    gap: 2rem;
-    padding-top: 1rem;
+.web-pro {
+  display: grid;
+  grid-template: repeat(2, 9.375rem) / repeat(3, 9.375rem);
+  justify-content: center;
+  justify-items: center;
+  gap: 2rem;
+  padding-top: 1rem;
 }
-.web-pro div{
-    text-align: center;
+.web-pro div {
+  text-align: center;
 }
-.web-pro div span{
-    text-align: center;
-    font-size: 1.5rem;
-    color: white;
+.web-pro div span {
+  text-align: center;
+  font-size: 1.5rem;
+  color: white;
 }
-.web-pro img{
-    width: 100px;
-    height: 100px;
+.web-pro img {
+  width: 100px;
+  height: 100px;
 }
 .app-dev {
-    border: 1px solid white;
-    padding: 2rem;
-    flex: 40%;
-    margin: 1.5rem;
+  border: 1px solid white;
+  padding: 2rem;
+  flex: 40%;
+  margin: 1.5rem;
 }
 .app-dev h3 {
-    font-size: 2.5rem;
-    text-align: center;
-    color: rgb(255, 0, 0);
+  font-size: 2.5rem;
+  text-align: center;
+  color: rgb(255, 0, 0);
 }
 .app-pro {
-    display: grid;
-    grid-template: repeat(2, 9.375rem)/repeat(3, 9.375rem);
-    justify-content: center;
-    justify-items: center;
-    gap: 2rem;
-    padding-top: 1rem;
+  display: grid;
+  grid-template: repeat(2, 9.375rem) / repeat(3, 9.375rem);
+  justify-content: center;
+  justify-items: center;
+  gap: 2rem;
+  padding-top: 1rem;
 }
-.app-pro div{
-    text-align: center;
+.app-pro div {
+  text-align: center;
 }
 .app-pro div span {
-    text-align: center;
-    font-size: 1.5rem;
-    color: white;
+  text-align: center;
+  font-size: 1.5rem;
+  color: white;
 }
 
 .app-pro img {
-    width: 100px;
-    height: 100px;
+  width: 100px;
+  height: 100px;
 }
-
-
-
-
+.project {
+  width: 100%;
+  height: 40rem;
+  position: relative;
+  top: 5rem;
+  padding-top: 2rem;
+  margin-top: 0.5rem;
+}
+.project::before {
+  content: "";
+  position: absolute;
+  background-image: url("../images/fondo-4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  inset: 0;
+  opacity: 0.7;
+}
+.project h2 {
+  text-align: center;
+  color: rgb(152, 67, 67);
+  isolation: isolate;
+  font-size: 3.125rem;
+}
+.my-pro {
+  display: flex;
+  isolation: isolate;
+}
+.my-pro div {
+  margin: 2rem;
+  flex: 30%;
+  background-color: rgb(77, 77, 129);
+  height: 31.25rem;
+}
+.my-pro div img {
+  height: 320px;
+  width: 100%;
+}
+.my-pro div p {
+  margin: 0.5rem;
+  line-height: 1.5;
+}
+.my-pro div p span {
+  color: white;
+}
+.my-pro div p a {
+  text-decoration: none;
+  color: blue;
+  font-size: 0.8rem;
+}
+.my-pro div p a:hover {
+  color: red;
+}
+.my-pro div p a:visited {
+  color: blueviolet;
+}
