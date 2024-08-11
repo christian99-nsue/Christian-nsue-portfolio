@@ -106,7 +106,7 @@ header {
 }
 
 .banner p span {
-  font-size: 5rem;
+  font-size: 4.5rem;
   color: black;
 }
 .cv {
@@ -441,6 +441,985 @@ footer span {
   font-size: 1.2rem;
 }
 
+@media only screen and (min-width: 541px) and (max-width: 769px) {
+  #mobile {
+    display: none;
+  }
+  .banner {
+    width: 100%;
+    height: 36rem;
+    display: flex;
+    top: 4.6875rem;
+    position: relative;
+    align-content: center;
+  }
+  .banner img {
+    position: relative;
+    width: 20rem;
+    height: 20rem;
+    top: 5rem;
+    margin: 3rem;
+    isolation: isolate;
+  }
+  .banner p {
+    margin: 13rem auto 0;
+    text-align: center;
+    font-family: "Alike", serif;
+    isolation: isolate;
+  }
+  .banner p span {
+    font-size: 3rem;
+    color: black;
+  }
+  .cv {
+    font-size: 1.8rem;
+  }
+  .name {
+    width: 100%;
+    height: 32rem;
+    position: relative;
+    top: 5rem;
+    padding-top: 2rem;
+  }
+  .name p {
+    margin: 0 3rem;
+    text-align: justify;
+    isolation: isolate;
+    font-size: 1.2rem;
+  }
+  .skills h2 {
+    font-size: 2.5rem;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 1.8rem;
+    color: rgb(244, 239, 132);
+  }
+  .dev {
+    display: flex;
+  }
+  .web-dev {
+    border: 1px solid white;
+    padding: 1rem;
+    flex: 40%;
+    margin: 1rem;
+  }
+  .web-dev h3 {
+    font-size: 1.5rem;
+    text-align: center;
+    color: rgb(89, 173, 255);
+  }
+  .web-pro {
+    display: grid;
+    grid-template: repeat(2, 5rem) / repeat(3, 5rem);
+    justify-content: center;
+    justify-items: center;
+    gap: 1.2rem;
+    padding-top: 1rem;
+  }
+  .web-pro div {
+    text-align: center;
+  }
+  .web-pro div span {
+    text-align: center;
+    font-size: 1rem;
+    color: white;
+  }
+  .web-pro img {
+    width: 65px;
+    height: 65px;
+  }
+  .app-dev {
+    border: 1px solid white;
+    padding: 1rem;
+    flex: 40%;
+    margin: 1rem;
+  }
+  .app-dev h3 {
+    font-size: 1.5rem;
+    text-align: center;
+    color: rgb(245, 22, 29);
+  }
+  .app-pro {
+    display: grid;
+    grid-template: repeat(2, 5rem) / repeat(3, 5rem);
+    justify-content: center;
+    justify-items: center;
+    gap: 1.2rem;
+    padding-top: 1rem;
+  }
+  .app-pro div {
+    text-align: center;
+  }
+  .app-pro div span {
+    text-align: center;
+    font-size: 1rem;
+    color: white;
+  }
+  .app-pro img {
+    width: 65px;
+    height: 65px;
+  }
+  .project {
+    width: 100%;
+    height: 45rem;
+    position: relative;
+    top: 5rem;
+    padding-top: 1.8rem;
+    margin-top: 0.5rem;
+  }
+  .my-pro div {
+    margin: 2rem;
+    flex: 30%;
+    background-color: rgb(77, 77, 129);
+    height: 37rem;
+  }
+  .my-pro div p {
+    margin: 0.5rem;
+    line-height: 1.2;
+    font-size: 0.925rem;
+  }
+  .contact {
+    width: 100%;
+    height: 38rem;
+    position: relative;
+    top: 5rem;
+    padding-top: 2rem;
+    margin-top: 0.5rem;
+  }
+  .social {
+    display: flex;
+    isolation: isolate;
+    align-items: start;
+  }
+  .me {
+    flex: 45%;
+    margin-left: 1rem;
+    max-width: 250px;
+    overflow: hidden;
+    position: relative;
+    width: 25%;
+    display: flex;
+  }
+  .carousel-me {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  .carousel-me img {
+    height: auto;
+    width: 100%;
+  }
+  .social-network {
+    flex: 45%;
+    position: relative;
+    margin-left: 2rem;
+  }
+  .social-network img {
+    height: 350px;
+    width: 400px;
+  }
+  .social-network div {
+    padding-top: 1rem;
+  }
+  .social-network div h3 {
+    color: white;
+    text-align: center;
+  }
+  .social-network div a {
+    height: 80px;
+    width: 80px;
+    margin: 0.2rem;
+    border-radius: 50%;
+    color: white;
+    font-size: 16px;
+  }
+  .social-network div a i {
+    margin: 0.3rem;
+    text-align: center;
+    height: 0.8em;
+    width: 0.8em;
+  }
+  .social-network div a i.fa-github {
+    color: white;
+    background-color: black;
+    border-radius: 50%;
+    height: 1em;
+    width: 1em;
+    text-align: center;
+    align-content: center;
+  }
+  .social-network div a i.fa-google {
+    color: red;
+    border-radius: 50%;
+    height: 1em;
+    width: 1em;
+    text-align: center;
+  }
+  .social-network div a i.fa-instagram {
+    color: rgb(211, 31, 31);
+    border-radius: 50%;
+    height: 1em;
+    width: 1em;
+    text-align: center;
+  }
+  .social-network div a i.fa-whatsapp {
+    color: white;
+    background-color: green;
+    border-radius: 50%;
+    height: 1em;
+    width: 1em;
+    align-content: center;
+  }
+  .social-network div a i.fa-linkedin {
+    color: white;
+    background-color: blue;
+    border-radius: 50%;
+    height: 1em;
+    width: 1em;
+    align-content: center;
+  }
+  .social-network div a i.fa-facebook {
+    color: white;
+    background-color: blue;
+    border-radius: 50%;
+    height: 1em;
+    width: 1em;
+    align-content: center;
+  }
+}
+
+@media only screen and (min-width: 770px) and (max-width: 821px) {
+  #mobile {
+    display: none;
+  }
+  .banner {
+    width: 100%;
+    height: 36rem;
+    display: flex;
+    top: 4.6875rem;
+    position: relative;
+    align-content: center;
+  }
+  .banner img {
+    position: relative;
+    width: 20rem;
+    height: 20rem;
+    top: 5rem;
+    margin: 3rem;
+    isolation: isolate;
+  }
+  .banner p {
+    margin: 13rem auto 0;
+    text-align: center;
+    font-family: "Alike", serif;
+    isolation: isolate;
+  }
+  .banner p span {
+    font-size: 3rem;
+    color: black;
+  }
+  .cv {
+    font-size: 1.8rem;
+  }
+  .name {
+    width: 100%;
+    height: 32rem;
+    position: relative;
+    top: 5rem;
+    padding-top: 2rem;
+  }
+  .name p {
+    margin: 0 3rem;
+    text-align: justify;
+    isolation: isolate;
+    font-size: 1.2rem;
+  }
+  .skills h2 {
+    font-size: 2.5rem;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 1.8rem;
+    color: rgb(244, 239, 132);
+  }
+  .dev {
+    display: flex;
+  }
+  .web-dev {
+    border: 1px solid white;
+    padding: 1rem;
+    flex: 40%;
+    margin: 1rem;
+  }
+  .web-dev h3 {
+    font-size: 1.5rem;
+    text-align: center;
+    color: rgb(89, 173, 255);
+  }
+  .web-pro {
+    display: grid;
+    grid-template: repeat(2, 5rem) / repeat(3, 5rem);
+    justify-content: center;
+    justify-items: center;
+    gap: 1.2rem;
+    padding-top: 1rem;
+  }
+  .web-pro div {
+    text-align: center;
+  }
+  .web-pro div span {
+    text-align: center;
+    font-size: 1rem;
+    color: white;
+  }
+  .web-pro img {
+    width: 65px;
+    height: 65px;
+  }
+  .app-dev {
+    border: 1px solid white;
+    padding: 1rem;
+    flex: 40%;
+    margin: 1rem;
+  }
+  .app-dev h3 {
+    font-size: 1.5rem;
+    text-align: center;
+    color: rgb(245, 22, 29);
+  }
+  .app-pro {
+    display: grid;
+    grid-template: repeat(2, 5rem) / repeat(3, 5rem);
+    justify-content: center;
+    justify-items: center;
+    gap: 1.2rem;
+    padding-top: 1rem;
+  }
+  .app-pro div {
+    text-align: center;
+  }
+  .app-pro div span {
+    text-align: center;
+    font-size: 1rem;
+    color: white;
+  }
+  .app-pro img {
+    width: 65px;
+    height: 65px;
+  }
+  .project {
+    width: 100%;
+    height: 45rem;
+    position: relative;
+    top: 5rem;
+    padding-top: 1.8rem;
+    margin-top: 0.5rem;
+  }
+  .my-pro div {
+    margin: 2rem;
+    flex: 30%;
+    background-color: rgb(77, 77, 129);
+    height: 35rem;
+  }
+  .my-pro div p {
+    margin: 0.5rem;
+    line-height: 1.2;
+    font-size: 0.925rem;
+  }
+  .contact {
+    width: 100%;
+    height: 38rem;
+    position: relative;
+    top: 5rem;
+    padding-top: 2rem;
+    margin-top: 0.5rem;
+  }
+  .social {
+    display: flex;
+    isolation: isolate;
+    align-items: start;
+  }
+  .me {
+    flex: 45%;
+    margin-left: 1rem;
+    max-width: 250px;
+    overflow: hidden;
+    position: relative;
+    width: 25%;
+    display: flex;
+  }
+  .carousel-me {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  .carousel-me img {
+    height: auto;
+    width: 100%;
+  }
+  .social-network {
+    flex: 45%;
+    position: relative;
+    margin-left: 5%;
+  }
+  .social-network img {
+    height: 350px;
+    width: 420px;
+  }
+  .social-network div {
+    padding-top: 1rem;
+  }
+  .social-network div h3 {
+    color: white;
+    text-align: center;
+  }
+  .social-network div a {
+    height: 90px;
+    width: 90px;
+    margin: 0.3rem;
+    border-radius: 50%;
+    color: white;
+    font-size: 16px;
+  }
+  .social-network div a i {
+    margin: 0.3rem;
+    text-align: center;
+    height: 0.8em;
+    width: 0.8em;
+  }
+  .social-network div a i.fa-github {
+    color: white;
+    background-color: black;
+    border-radius: 50%;
+    height: 1em;
+    width: 1em;
+    text-align: center;
+    align-content: center;
+  }
+  .social-network div a i.fa-google {
+    color: red;
+    border-radius: 50%;
+    height: 1em;
+    width: 1em;
+    text-align: center;
+  }
+  .social-network div a i.fa-instagram {
+    color: rgb(211, 31, 31);
+    border-radius: 50%;
+    height: 1em;
+    width: 1em;
+    text-align: center;
+  }
+  .social-network div a i.fa-whatsapp {
+    color: white;
+    background-color: green;
+    border-radius: 50%;
+    height: 1em;
+    width: 1em;
+    align-content: center;
+  }
+  .social-network div a i.fa-linkedin {
+    color: white;
+    background-color: blue;
+    border-radius: 50%;
+    height: 1em;
+    width: 1em;
+    align-content: center;
+  }
+  .social-network div a i.fa-facebook {
+    color: white;
+    background-color: blue;
+    border-radius: 50%;
+    height: 1em;
+    width: 1em;
+    align-content: center;
+  }
+}
+
+@media only screen and (min-width: 822px) and (max-width: 913px) {
+  #mobile {
+    display: none;
+  }
+  .banner {
+    width: 100%;
+    height: 43rem;
+    display: flex;
+    top: 4.6875rem;
+    position: relative;
+  }
+  .banner img {
+    position: relative;
+    width: 27rem;
+    height: 27rem;
+    top: 5rem;
+    margin: 3.5rem;
+    isolation: isolate;
+  }
+  .banner p {
+    top: 5rem;
+    margin: auto;
+    text-align: center;
+    font-family: "Alike", serif;
+    isolation: isolate;
+  }
+  .banner p span {
+    font-size: 3.5rem;
+    color: black;
+  }
+  .cv {
+    font-size: 2rem;
+  }
+  .name {
+    width: 100%;
+    height: 36rem;
+    position: relative;
+    top: 5rem;
+    padding-top: 2rem;
+  }
+  .name p {
+    margin: 0 8rem;
+    text-align: justify;
+    isolation: isolate;
+    font-size: 1.3rem;
+  }
+  .skills h2 {
+    font-size: 2.8rem;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 2rem;
+    color: rgb(244, 239, 132);
+  }
+  .dev {
+    display: flex;
+  }
+  .web-dev {
+    border: 1px solid white;
+    padding: 1rem;
+    flex: 40%;
+    margin: 1.2rem;
+  }
+  .web-dev h3 {
+    font-size: 1.8rem;
+    text-align: center;
+    color: rgb(89, 173, 255);
+  }
+  .web-pro {
+    display: grid;
+    grid-template: repeat(2, 7rem) / repeat(3, 7rem);
+    justify-content: center;
+    justify-items: center;
+    gap: 1.5rem;
+    padding-top: 1rem;
+  }
+  .web-pro div {
+    text-align: center;
+  }
+  .web-pro div span {
+    text-align: center;
+    font-size: 1.2rem;
+    color: white;
+  }
+  .web-pro img {
+    width: 80px;
+    height: 80px;
+  }
+  .app-dev {
+    border: 1px solid white;
+    padding: 1rem;
+    flex: 40%;
+    margin: 1.2rem;
+  }
+  .app-dev h3 {
+    font-size: 1.8rem;
+    text-align: center;
+    color: rgb(255, 0, 0);
+  }
+  .app-pro {
+    display: grid;
+    grid-template: repeat(2, 7rem) / repeat(3, 7rem);
+    justify-content: center;
+    justify-items: center;
+    gap: 1.5rem;
+    padding-top: 1rem;
+  }
+  .app-pro div {
+    text-align: center;
+  }
+  .app-pro div span {
+    text-align: center;
+    font-size: 1.2rem;
+    color: white;
+  }
+  .app-pro img {
+    width: 80px;
+    height: 80px;
+  }
+  .project {
+    width: 100%;
+    height: 43rem;
+    position: relative;
+    top: 5rem;
+    padding-top: 2rem;
+    margin-top: 0.5rem;
+  }
+  .my-pro div {
+    margin: 2rem;
+    flex: 30%;
+    background-color: rgb(77, 77, 129);
+    height: 37rem;
+  }
+  .contact {
+    width: 100%;
+    height: 38rem;
+    position: relative;
+    top: 5rem;
+    padding-top: 2rem;
+    margin-top: 0.5rem;
+  }
+  .social {
+    display: flex;
+    isolation: isolate;
+    align-items: start;
+  }
+  .me {
+    flex: 45%;
+    margin-left: 1rem;
+    max-width: 250px;
+    overflow: hidden;
+    position: relative;
+    width: 25%;
+    display: flex;
+  }
+  .carousel-me {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  .carousel-me img {
+    height: auto;
+    width: 100%;
+  }
+  .social-network {
+    flex: 45%;
+    position: relative;
+    margin-left: 8rem;
+  }
+  .social-network img {
+    height: 350px;
+    width: 420px;
+  }
+  .social-network div {
+    padding-top: 1rem;
+  }
+  .social-network div h3 {
+    color: white;
+    text-align: center;
+  }
+  .social-network div a {
+    height: 100px;
+    width: 100px;
+    margin: 0.3rem;
+    border-radius: 50%;
+    color: white;
+    font-size: 16px;
+  }
+  .social-network div a i {
+    margin: 0.3rem;
+    text-align: center;
+    height: 0.8em;
+    width: 0.8em;
+  }
+  .social-network div a i.fa-github {
+    color: white;
+    background-color: black;
+    border-radius: 50%;
+    height: 1em;
+    width: 1em;
+    text-align: center;
+    align-content: center;
+  }
+  .social-network div a i.fa-google {
+    color: red;
+    border-radius: 50%;
+    height: 1em;
+    width: 1em;
+    text-align: center;
+  }
+  .social-network div a i.fa-instagram {
+    color: rgb(211, 31, 31);
+    border-radius: 50%;
+    height: 1em;
+    width: 1em;
+    text-align: center;
+  }
+  .social-network div a i.fa-whatsapp {
+    color: white;
+    background-color: green;
+    border-radius: 50%;
+    height: 1em;
+    width: 1em;
+    align-content: center;
+  }
+  .social-network div a i.fa-linkedin {
+    color: white;
+    background-color: blue;
+    border-radius: 50%;
+    height: 1em;
+    width: 1em;
+    align-content: center;
+  }
+  .social-network div a i.fa-facebook {
+    color: white;
+    background-color: blue;
+    border-radius: 50%;
+    height: 1em;
+    width: 1em;
+    align-content: center;
+  }
+}
+@media only screen and (min-width: 914px) and (max-width: 1049px) {
+  #mobile {
+    display: none;
+  }
+  .banner {
+    width: 100%;
+    height: 43rem;
+    display: flex;
+    top: 4.6875rem;
+    position: relative;
+  }
+  .banner img {
+    position: relative;
+    width: 27rem;
+    height: 27rem;
+    top: 5rem;
+    margin: 3.5rem;
+    isolation: isolate;
+  }
+  .banner p {
+    top: 5rem;
+    margin: auto;
+    text-align: center;
+    font-family: "Alike", serif;
+    isolation: isolate;
+  }
+  .banner p span {
+    font-size: 3.5rem;
+    color: black;
+  }
+  .cv {
+    font-size: 2rem;
+  }
+  .name {
+    width: 100%;
+    height: 36rem;
+    position: relative;
+    top: 5rem;
+    padding-top: 2rem;
+  }
+  .name p {
+    margin: 0 8rem;
+    text-align: justify;
+    isolation: isolate;
+    font-size: 1.3rem;
+  }
+  .skills h2 {
+    font-size: 2.8rem;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 2rem;
+    color: rgb(244, 239, 132);
+  }
+  .dev {
+    display: flex;
+  }
+  .web-dev {
+    border: 1px solid white;
+    padding: 1rem;
+    flex: 40%;
+    margin: 1.2rem;
+  }
+  .web-dev h3 {
+    font-size: 1.8rem;
+    text-align: center;
+    color: rgb(89, 173, 255);
+  }
+  .web-pro {
+    display: grid;
+    grid-template: repeat(2, 7rem) / repeat(3, 7rem);
+    justify-content: center;
+    justify-items: center;
+    gap: 1.5rem;
+    padding-top: 1rem;
+  }
+  .web-pro div {
+    text-align: center;
+  }
+  .web-pro div span {
+    text-align: center;
+    font-size: 1.2rem;
+    color: white;
+  }
+  .web-pro img {
+    width: 80px;
+    height: 80px;
+  }
+  .app-dev {
+    border: 1px solid white;
+    padding: 1rem;
+    flex: 40%;
+    margin: 1.2rem;
+  }
+  .app-dev h3 {
+    font-size: 1.8rem;
+    text-align: center;
+    color: rgb(255, 0, 0);
+  }
+  .app-pro {
+    display: grid;
+    grid-template: repeat(2, 7rem) / repeat(3, 7rem);
+    justify-content: center;
+    justify-items: center;
+    gap: 1.5rem;
+    padding-top: 1rem;
+  }
+  .app-pro div {
+    text-align: center;
+  }
+  .app-pro div span {
+    text-align: center;
+    font-size: 1.2rem;
+    color: white;
+  }
+  .app-pro img {
+    width: 80px;
+    height: 80px;
+  }
+  .project {
+    width: 100%;
+    height: 43rem;
+    position: relative;
+    top: 5rem;
+    padding-top: 2rem;
+    margin-top: 0.5rem;
+  }
+  .my-pro div {
+    margin: 2rem;
+    flex: 30%;
+    background-color: rgb(77, 77, 129);
+    height: 35rem;
+  }
+  .contact {
+    width: 100%;
+    height: 38rem;
+    position: relative;
+    top: 5rem;
+    padding-top: 2rem;
+    margin-top: 0.5rem;
+  }
+  .social {
+    display: flex;
+    isolation: isolate;
+    align-items: start;
+  }
+  .me {
+    flex: 45%;
+    margin-left: 1rem;
+    max-width: 250px;
+    overflow: hidden;
+    position: relative;
+    width: 25%;
+    display: flex;
+  }
+  .carousel-me {
+    display: flex;
+    transition: transform 0.5s ease;
+  }
+  .carousel-me img {
+    height: auto;
+    width: 100%;
+  }
+  .social-network {
+    flex: 45%;
+    position: relative;
+    margin-left: 15rem;
+  }
+  .social-network img {
+    height: 350px;
+    width: 420px;
+  }
+  .social-network div {
+    padding-top: 1rem;
+  }
+  .social-network div h3 {
+    color: white;
+    text-align: center;
+  }
+  .social-network div a {
+    height: 100px;
+    width: 100px;
+    margin: 0.3rem;
+    border-radius: 50%;
+    color: white;
+    font-size: 16px;
+  }
+  .social-network div a i {
+    margin: 0.3rem;
+    text-align: center;
+    height: 0.8em;
+    width: 0.8em;
+  }
+  .social-network div a i.fa-github {
+    color: white;
+    background-color: black;
+    border-radius: 50%;
+    height: 1em;
+    width: 1em;
+    text-align: center;
+    align-content: center;
+  }
+  .social-network div a i.fa-google {
+    color: red;
+    border-radius: 50%;
+    height: 1em;
+    width: 1em;
+    text-align: center;
+  }
+  .social-network div a i.fa-instagram {
+    color: rgb(211, 31, 31);
+    border-radius: 50%;
+    height: 1em;
+    width: 1em;
+    text-align: center;
+  }
+  .social-network div a i.fa-whatsapp {
+    color: white;
+    background-color: green;
+    border-radius: 50%;
+    height: 1em;
+    width: 1em;
+    align-content: center;
+  }
+  .social-network div a i.fa-linkedin {
+    color: white;
+    background-color: blue;
+    border-radius: 50%;
+    height: 1em;
+    width: 1em;
+    align-content: center;
+  }
+  .social-network div a i.fa-facebook {
+    color: white;
+    background-color: blue;
+    border-radius: 50%;
+    height: 1em;
+    width: 1em;
+    align-content: center;
+  }
+}
+
+@media only screen and (min-width: 1050px) {
+  #mobile {
+    display: none;
+  }
+}
+
 @media only screen and (max-width: 435px) {
   header {
     height: 5rem;
@@ -731,9 +1710,302 @@ footer span {
     font-size: 0.8rem;
   }
 }
+
+@media only screen and (min-width: 436px) and (max-width: 541px) {
+  header {
+    height: 5rem;
+  }
+  #desktop {
+    display: none;
+  }
+  .banner {
+    display: block;
+    height: 39rem;
+    top: 4rem;
+  }
+  .banner img {
+    height: 18rem;
+    width: 18rem;
+    top: 2rem;
+    margin-left: 8rem;
+  }
+  .banner p span {
+    font-size: 2rem;
+  }
+  .banner p strong {
+    font-size: 1rem;
+  }
+  .name {
+    width: 100%;
+    height: 36.875rem;
+    position: relative;
+    top: 4.5rem;
+    padding-top: 2rem;
+  }
+  .name p {
+    margin: 0 1rem;
+    text-align: justify;
+    isolation: isolate;
+    font-size: 0.7rem;
+  }
+  .skills {
+    isolation: isolate;
+    position: relative;
+  }
+  .skills h2 {
+    font-size: 2rem;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 1rem;
+    color: rgb(244, 239, 132);
+  }
+  .dev {
+    display: block;
+  }
+  .web-dev {
+    border: 1px solid white;
+    padding: 1rem;
+    margin: 1.5rem;
+  }
+  .web-dev h3 {
+    font-size: 1.5rem;
+    text-align: center;
+    color: rgb(89, 173, 255);
+  }
+  .web-pro {
+    display: grid;
+    grid-template: repeat(2, 4rem) / repeat(3, 5rem);
+    justify-content: center;
+    justify-items: center;
+    gap: 0.5rem;
+    padding-top: 0.5rem;
+  }
+  .web-pro div {
+    text-align: center;
+  }
+  .web-pro div span {
+    text-align: center;
+    font-size: 0.7rem;
+    color: white;
+  }
+  .web-pro img {
+    width: 3.125rem;
+    height: 3.125rem;
+  }
+  .app-dev {
+    border: 1px solid white;
+    padding: 1rem;
+    margin: 1.5rem;
+  }
+  .app-dev h3 {
+    font-size: 1.5rem;
+    text-align: center;
+    color: rgb(255, 0, 0);
+  }
+  .app-pro {
+    display: grid;
+    grid-template: repeat(2, 4rem) / repeat(3, 5rem);
+    justify-content: center;
+    justify-items: center;
+    gap: 0.5rem;
+    padding-top: 0.5rem;
+  }
+  .app-pro div {
+    text-align: center;
+  }
+  .app-pro div span {
+    text-align: center;
+    font-size: 0.7rem;
+    color: white;
+  }
+  .app-pro img {
+    width: 3.125rem;
+    height: 3.125rem;
+  }
+  .project {
+    width: 100%;
+    height: 86rem;
+    position: relative;
+    top: 4.3rem;
+    padding-top: 1rem;
+    margin-top: 0.5rem;
+  }
+  .project h2 {
+    text-align: center;
+    color: rgb(152, 67, 67);
+    isolation: isolate;
+    font-size: 2rem;
+  }
+  .my-pro {
+    display: block;
+    isolation: isolate;
+  }
+  .my-pro div {
+    margin: 2rem;
+    background-color: rgb(77, 77, 129);
+    height: 25rem;
+  }
+  .my-pro div img {
+    height: 16.625rem;
+    width: 100%;
+  }
+  .my-pro div p {
+    margin: 0.5rem;
+    line-height: 1.4;
+    font-size: 0.8rem;
+  }
+  .my-pro div p span {
+    color: white;
+  }
+  .my-pro div p a {
+    text-decoration: none;
+    color: blue;
+    font-size: 0.7rem;
+  }
+  .my-pro div p a:hover {
+    color: red;
+  }
+  .my-pro div p a:visited {
+    color: blueviolet;
+  }
+  .contact {
+    width: 100%;
+    height: 72rem;
+    position: relative;
+    top: 4.3rem;
+    padding-top: 1rem;
+    margin-top: 0.5rem;
+  }
+  .contact h2 {
+    text-align: center;
+    color: rgb(131, 255, 127);
+    isolation: isolate;
+    font-size: 2rem;
+  }
+  .social {
+    display: block;
+    isolation: isolate;
+    margin: 2rem;
+    align-items: start;
+  }
+  .me {
+    margin-left: 4rem;
+    max-width: 25rem;
+    overflow: hidden;
+    position: relative;
+    width: 70%;
+    display: flex;
+  }
+  .me button {
+    flex: 5%;
+    height: 1.875rem;
+    width: 1.875rem;
+    background-color: green;
+    cursor: pointer;
+    margin: 0.5rem;
+    border: none;
+    color: white;
+    position: absolute;
+    top: 50%;
+  }
+  .social-network {
+    position: relative;
+    margin: 0 auto;
+    padding-top: 2rem;
+  }
+  .social-network img {
+    height: 13rem;
+    width: 21rem;
+    margin-left: 4rem;
+  }
+  .social-network div {
+    padding-top: 1rem;
+    margin-left: 1rem;
+  }
+  .social-network div h3 {
+    color: white;
+    text-align: center;
+  }
+  .social-network div a {
+    height: 3rem;
+    width: 3rem;
+    margin: 0.5rem;
+    border-radius: 50%;
+    color: white;
+    font-size: 1rem;
+  }
+
+  .social-network div a i {
+    margin: 0.3rem;
+    text-align: center;
+    height: 1.1em;
+    width: 1.1em;
+  }
+  .social-network div a i.fa-github {
+    color: white;
+    background-color: black;
+    border-radius: 50%;
+    height: 0.9em;
+    width: 0.9em;
+    text-align: center;
+    align-content: center;
+  }
+  .social-network div a i.fa-google {
+    color: red;
+    border-radius: 50%;
+    height: 0.9em;
+    width: 0.9em;
+    text-align: center;
+  }
+  .social-network div a i.fa-instagram {
+    color: rgb(211, 31, 31);
+    border-radius: 50%;
+    height: 0.9em;
+    width: 0.9em;
+    text-align: center;
+  }
+  .social-network div a i.fa-whatsapp {
+    color: white;
+    background-color: green;
+    border-radius: 50%;
+    height: 0.9em;
+    width: 0.9em;
+    align-content: center;
+  }
+  .social-network div a i.fa-linkedin {
+    color: white;
+    background-color: blue;
+    border-radius: 50%;
+    height: 0.9em;
+    width: 0.9em;
+    align-content: center;
+  }
+  .social-network div a i.fa-facebook {
+    color: white;
+    background-color: blue;
+    border-radius: 50%;
+    height: 0.9em;
+    width: 0.9em;
+    align-content: center;
+  }
+  footer {
+    position: relative;
+    top: 4.3rem;
+    background-color: rgb(105, 56, 156);
+    color: white;
+    height: 2rem;
+    padding-top: 1rem;
+    margin-top: 0.3rem;
+  }
+  footer span {
+    margin: 1rem;
+    font-size: 0.8rem;
+  }
+}
+
 @media only screen and (max-width: 376px) {
   main {
-    width: 118%;
+    width: 120%;
   }
   .contact {
     height: 70rem;
@@ -756,7 +2028,7 @@ footer span {
     margin-left: 2.3rem;
   }
   footer {
-    width: 118%;
+    width: 120%;
   }
 }
 @media only screen and (max-width: 415px) {
