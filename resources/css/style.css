@@ -18,6 +18,10 @@ header {
   position: relative;
   z-index: 1;
 }
+#mobile {
+  position: relative;
+  z-index: 1;
+}
 #desktop img {
   width: 3.125rem;
   height: 3.125rem;
@@ -32,7 +36,17 @@ header {
   margin-right: 2.1875rem;
   float: right;
 }
+#mobile ul {
+  list-style: none;
+  display: flex;
+  margin-right: 2.1875rem;
+  justify-content: space-evenly;
+}
 #desktop li {
+  display: flex;
+  margin-left: 35px;
+}
+#mobile li {
   display: flex;
   margin-left: 35px;
 }
@@ -44,7 +58,18 @@ header {
   margin-top: 25px;
   font-family: "Alike", serif;
 }
+#mobile li a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 30px;
+  margin-top: 25px;
+  font-family: "Alike", serif;
+}
 #desktop li a:hover {
+  color: blue;
+}
+#mobile li a:hover {
   color: blue;
 }
 .banner {
@@ -342,11 +367,6 @@ header {
   color: white;
   font-size: 16px;
 }
-.social-network div a img {
-  height: 60px;
-  width: 60px;
-  border-radius: 50%;
-}
 
 .social-network div a i {
   margin: 0.8rem;
@@ -419,4 +439,361 @@ footer {
 footer span {
   margin: 1rem;
   font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 435px) {
+  header {
+    height: 5rem;
+  }
+  #desktop {
+    display: none;
+  }
+  .banner {
+    display: block;
+    height: 37.5rem;
+    top: 4rem;
+  }
+  .banner img {
+    height: 15rem;
+    width: 15rem;
+    top: 0;
+  }
+  .banner p span {
+    font-size: 2rem;
+  }
+  .banner p strong {
+    font-size: 1rem;
+  }
+  .name {
+    width: 100%;
+    height: 36.875rem;
+    position: relative;
+    top: 4.5rem;
+    padding-top: 2rem;
+  }
+  .name p {
+    margin: 0 1rem;
+    text-align: justify;
+    isolation: isolate;
+    font-size: 0.7rem;
+  }
+  .skills {
+    isolation: isolate;
+    position: relative;
+  }
+  .skills h2 {
+    font-size: 2rem;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 1rem;
+    color: rgb(244, 239, 132);
+  }
+  .dev {
+    display: block;
+  }
+  .web-dev {
+    border: 1px solid white;
+    padding: 1rem;
+    margin: 1.5rem;
+  }
+  .web-dev h3 {
+    font-size: 1.5rem;
+    text-align: center;
+    color: rgb(89, 173, 255);
+  }
+  .web-pro {
+    display: grid;
+    grid-template: repeat(2, 4rem) / repeat(3, 5rem);
+    justify-content: center;
+    justify-items: center;
+    gap: 0.5rem;
+    padding-top: 0.5rem;
+  }
+  .web-pro div {
+    text-align: center;
+  }
+  .web-pro div span {
+    text-align: center;
+    font-size: 0.7rem;
+    color: white;
+  }
+  .web-pro img {
+    width: 3.125rem;
+    height: 3.125rem;
+  }
+  .app-dev {
+    border: 1px solid white;
+    padding: 1rem;
+    margin: 1.5rem;
+  }
+  .app-dev h3 {
+    font-size: 1.5rem;
+    text-align: center;
+    color: rgb(255, 0, 0);
+  }
+  .app-pro {
+    display: grid;
+    grid-template: repeat(2, 4rem) / repeat(3, 5rem);
+    justify-content: center;
+    justify-items: center;
+    gap: 0.5rem;
+    padding-top: 0.5rem;
+  }
+  .app-pro div {
+    text-align: center;
+  }
+  .app-pro div span {
+    text-align: center;
+    font-size: 0.7rem;
+    color: white;
+  }
+  .app-pro img {
+    width: 3.125rem;
+    height: 3.125rem;
+  }
+  .project {
+    width: 100%;
+    height: 86rem;
+    position: relative;
+    top: 4.3rem;
+    padding-top: 1rem;
+    margin-top: 0.5rem;
+  }
+  .project h2 {
+    text-align: center;
+    color: rgb(152, 67, 67);
+    isolation: isolate;
+    font-size: 2rem;
+  }
+  .my-pro {
+    display: block;
+    isolation: isolate;
+  }
+  .my-pro div {
+    margin: 2rem;
+    background-color: rgb(77, 77, 129);
+    height: 25rem;
+  }
+  .my-pro div img {
+    height: 16.625rem;
+    width: 100%;
+  }
+  .my-pro div p {
+    margin: 0.5rem;
+    line-height: 1.4;
+    font-size: 0.8rem;
+  }
+  .my-pro div p span {
+    color: white;
+  }
+  .my-pro div p a {
+    text-decoration: none;
+    color: blue;
+    font-size: 0.7rem;
+  }
+  .my-pro div p a:hover {
+    color: red;
+  }
+  .my-pro div p a:visited {
+    color: blueviolet;
+  }
+  .contact {
+    width: 100%;
+    height: 68rem;
+    position: relative;
+    top: 4.3rem;
+    padding-top: 1rem;
+    margin-top: 0.5rem;
+  }
+  .contact h2 {
+    text-align: center;
+    color: rgb(131, 255, 127);
+    isolation: isolate;
+    font-size: 2rem;
+  }
+  .social {
+    display: block;
+    isolation: isolate;
+    margin: 2rem;
+    align-items: start;
+  }
+  .me {
+    margin-left: 1.5rem;
+    max-width: 25rem;
+    overflow: hidden;
+    position: relative;
+    width: 80%;
+    display: flex;
+  }
+  .me button {
+    flex: 5%;
+    height: 1.875rem;
+    width: 1.875rem;
+    background-color: green;
+    cursor: pointer;
+    margin: 0.5rem;
+    border: none;
+    color: white;
+    position: absolute;
+    top: 50%;
+  }
+  .social-network {
+    position: relative;
+    margin: 0 auto;
+    padding-top: 2rem;
+  }
+  .social-network img {
+    height: 12.5rem;
+    width: 18.75rem;
+    margin-left: 1rem;
+  }
+  .social-network div {
+    padding-top: 1rem;
+    margin-left: 1rem;
+  }
+  .social-network div h3 {
+    color: white;
+    text-align: center;
+  }
+  .social-network div a {
+    height: 6.25rem;
+    width: 6.25rem;
+    margin: 0.3rem;
+    border-radius: 50%;
+    color: white;
+    font-size: 1rem;
+  }
+
+  .social-network div a i {
+    margin: 0.5rem;
+    text-align: center;
+    height: 1em;
+    width: 1em;
+  }
+  .social-network div a i.fa-github {
+    color: white;
+    background-color: black;
+    border-radius: 50%;
+    height: 1.4em;
+    width: 1.4em;
+    text-align: center;
+    align-content: center;
+  }
+  .social-network div a i.fa-google {
+    color: red;
+    border-radius: 50%;
+    height: 1.4em;
+    width: 1.4em;
+    text-align: center;
+  }
+  .social-network div a i.fa-instagram {
+    color: rgb(211, 31, 31);
+    border-radius: 50%;
+    height: 1.4em;
+    width: 1.4em;
+    text-align: center;
+  }
+  .social-network div a i.fa-whatsapp {
+    color: white;
+    background-color: green;
+    border-radius: 50%;
+    height: 1.4em;
+    width: 1.4em;
+    align-content: center;
+  }
+  .social-network div a i.fa-linkedin {
+    color: white;
+    background-color: blue;
+    border-radius: 50%;
+    height: 1.4em;
+    width: 1.4em;
+    align-content: center;
+  }
+  .social-network div a i.fa-facebook {
+    color: white;
+    background-color: blue;
+    border-radius: 50%;
+    height: 1.4em;
+    width: 1.4em;
+    align-content: center;
+  }
+  footer {
+    position: relative;
+    top: 4.3rem;
+    background-color: rgb(105, 56, 156);
+    color: white;
+    height: 2rem;
+    padding-top: 1rem;
+    margin-top: 0.3rem;
+  }
+  footer span {
+    margin: 1rem;
+    font-size: 0.8rem;
+  }
+}
+@media only screen and (max-width: 376px) {
+  main {
+    width: 118%;
+  }
+  .contact {
+    height: 70rem;
+  }
+  .me {
+    margin-left: 2.3rem;
+    max-width: 25rem;
+    overflow: hidden;
+    position: relative;
+    width: 80%;
+    display: flex;
+  }
+  .social-network img {
+    height: 12.5rem;
+    width: 18.75rem;
+    margin-left: 2.3rem;
+  }
+  .social-network div {
+    padding-top: 1rem;
+    margin-left: 2.3rem;
+  }
+  footer {
+    width: 118%;
+  }
+}
+@media only screen and (max-width: 415px) {
+  main,
+  footer {
+    width: 108%;
+  }
+  .contact {
+    height: 72rem;
+  }
+  .me {
+    margin-left: 2.3rem;
+    max-width: 25rem;
+    overflow: hidden;
+    position: relative;
+    width: 80%;
+    display: flex;
+  }
+  .social-network img {
+    height: 12.5rem;
+    width: 18.75rem;
+    margin-left: 2.3rem;
+  }
+  .social-network div {
+    padding-top: 1rem;
+    margin-left: 2.3rem;
+  }
+}
+@media only screen and (max-width: 391px) {
+  main,
+  footer {
+    width: 111%;
+  }
+}
+@media only screen and (max-width: 361px) {
+  main,
+  footer {
+    width: 120%;
+  }
 }
